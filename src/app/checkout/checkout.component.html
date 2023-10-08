@@ -1,0 +1,16 @@
+>
+<div class="w-50 mx-auto my-5" >
+    <form [formGroup]="shippingAddress" (ngSubmit)="handleSubmit(shippingAddress)">
+     <label for="details">details : </label>
+      <input type="text" class="form-control mb-2" formControlName="details" name="" id="">
+
+    <label for="phone">phone : </label>
+   <input type="tel" class="form-control mb-2" formControlName="phone" name="" id="">
+
+      <label for="city">city : </label>
+        <input type="text" class="form-control mb-2" formControlName="city" name="" id="">
+
+            <button class="btn bg-main text-white " type="submit">pay</button>
+
+    </form>
+</div>
